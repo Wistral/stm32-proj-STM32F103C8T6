@@ -131,14 +131,14 @@
           <Flash1>
             <UseTargetDll>0</UseTargetDll>
             <UseExternalTool>1</UseExternalTool>
-            <RunIndependent>0</RunIndependent>
+            <RunIndependent>1</RunIndependent>
             <UpdateFlashBeforeDebugging>1</UpdateFlashBeforeDebugging>
             <Capability>1</Capability>
             <DriverSelection>4096</DriverSelection>
           </Flash1>
           <bUseTDR>1</bUseTDR>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"..\tools\flasher\STMFlashLoader.exe" (-c --pn 8 -c --br 115200 -i STM32_High-density_256K -e --all -d --fn #H -r --a 0x8000000)</Flash3>
           <Flash4></Flash4>
           <pFcarmOut></pFcarmOut>
           <pFcarmGrp></pFcarmGrp>
